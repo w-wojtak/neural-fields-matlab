@@ -1,5 +1,8 @@
 # neural-fields-matlab
 Some codes for simulating neural field models in MATLAB.
 
-test:
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+One-dimensional neural field is given by:
+$$\dfrac{\partial u(x,t)}{\partial t} = -u(x,t) + \int^{\infty}_{-\infty} w (|x-y|)f(u(y,t)-h){\rm d} y + S(x,t)$$
+where  $u(x,t)$ represents the activity at time $t$ of a neuron at field position $x$.
+
+

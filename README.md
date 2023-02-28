@@ -1,5 +1,4 @@
 # neural-fields-matlab
-Some codes for simulating neural field models in MATLAB.
 
 The dynamics of the neural field model proposed and analyzed by Amari [[1]](#1) is governed by the following nonlinear integro-differential equation on a one-dimensional, spatially extended domain $\Omega$
 

@@ -42,7 +42,6 @@ I_S = A_I1 * gauss(xDim-distance, 0, sigma_I) +  A_I2 * gauss(xDim+distance, 0, 
 Input(1/dt:2/dt-1, :) = repmat(I_S,1/dt,1);
 
 %% open video file
-nFrames = 30;
 vidObj = VideoWriter('Amari_bump_competition.avi');
 vidObj.Quality = 100;
 vidObj.FrameRate = 10;

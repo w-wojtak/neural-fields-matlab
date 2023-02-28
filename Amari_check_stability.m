@@ -1,5 +1,5 @@
-% This code is used to determine the existence and stability of a bump
-% solution in the Amari model.
+% This code is used to determine the existence and stability of bump
+% solutions in the Amari model.
 %
 % The existence of a solution of width ? is determined by the roots of
 % W(?) = ?.

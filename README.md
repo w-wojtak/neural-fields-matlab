@@ -8,6 +8,8 @@ where  $u(x,t)$ represents the activity at time $t$ of a neuron at field positio
 The nonlinearity $f$ denotes the firing rate function with threshold $\theta$ and $w$ is the distance-dependent coupling function.
 
 The second model is the two field model from [[2]](#2)
+$$\dfrac{\partial u(x,t)}{\partial t} = -u(x,t) + v(x,t) + \int_{\Omega} w (|x-y|)f(u(y,t)-\theta){\rm d} y + I(x,t)$$
+$$\dfrac{\partial v(x,t)}{\partial t} = -v(x,t) + u(x,t) - \int_{\Omega} w (|x-y|)f(u(y,t)-\theta){\rm d} y$$
 
 
 ## References

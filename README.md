@@ -7,12 +7,14 @@ $$\dfrac{\partial u(x,t)}{\partial t} = -u(x,t) + \int_{\Omega} w (|x-y|)f(u(y,t
 where  $u(x,t)$ represents the activity at time $t$ of a neuron at field position $x$.
 
 The nonlinearity $f$ denotes the firing rate function, often taken as a smooth sigmoidal function with steepness parameter $\beta$
+
 $f(x) = \dfrac{1}{1+e^{-\beta(x-\theta)}},$
 which for large values of $\beta$ approximates the Heaviside step function.
 
 The term $w$ is the distance-dependent coupling function, 
 
-$w(x) = A_{ex}e^{\left(-x^{2}/2\sigma^{2}_{ex}\right)} - A_{in}e^{\left(-x^{2}/2\sigma^{2}_{in}\right)} - g_{in}$,
+$w(x) = A_{ex}e^{\left(-x^{2}/2\sigma^{2}_{ex} \right)} - A_{in}e^{\left(-x^{2}/2\sigma^{2}_{in}\right)} - g_{in}$,
+
 where $ A_{ex}  > A_{in} > 0 $ and $ \sigma_{in} > \sigma_{ex} > 0$  and $g_{in} > 0$.
 
 The second model is the two field model from [[2]](#2)

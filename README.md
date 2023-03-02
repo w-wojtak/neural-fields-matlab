@@ -25,7 +25,7 @@ The second example is the Mexican hat function given by the difference of two Ga
 
 $w_ {mex}(x) = A_{ex}e^{\left(-x^{2}/2\sigma^{2}_ {ex} \right)} - A_{in}e^{\left(-x^{2}/2\sigma^{2}_ {in}\right)} - g_{in}$,
 
-where $ A_{ex}  > A_{in} > 0 $ and $ \sigma_{in} > \sigma_{ex} > 0$  and $g_{in} > 0$.
+where $A_{ex}  > A_{in} > 0$ and $ \sigma_{in} > \sigma_{ex} > 0$  and $g_{in} > 0$.
 
 The third example is the oscillatory connectivity function
 

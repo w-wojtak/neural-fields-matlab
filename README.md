@@ -38,7 +38,7 @@ $$\dfrac{\partial v(x,t)}{\partial t} = -v(x,t) + u(x,t) - \int_{\Omega} w (|x-y
 
 ## References
 <a id="1">[1]</a> 
-Amari, S. I. (1977). Dynamics of pattern formation in lateral-inhibition type neural fields. Biological cybernetics, 27(2), 77-87.
+Amari, S. I. (1977). Dynamics of pattern formation in lateral-inhibition type neural fields. Biological Cybernetics, 27(2), 77-87.
 
 <a id="2">[2]</a> 
 Wojtak, W., Coombes, S., Avitabile, D., Bicho, E., & Erlhagen, W. (2021). A dynamic neural field model of continuous input integration. Biological Cybernetics, 115(5), 451-471.

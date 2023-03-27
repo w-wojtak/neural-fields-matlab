@@ -82,7 +82,7 @@ for i = 1:M
         plot(xDim,theta*ones(1,N),'--k','linewidth',1)
         set(gca,'XLim',[-L L]), set(gca,'YLim',[-1.5 3])
         xlabel('x'); set(gca,'FontSize', 15)
-        title(['Memory field'])
+        title(['Memory field']), set(0,'defaulttextInterpreter','tex') 
         pause(0.01); hold off
         % write to file
 %         writeVideo(vidObj, getframe(gcf));

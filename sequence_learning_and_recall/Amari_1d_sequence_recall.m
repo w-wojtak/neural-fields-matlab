@@ -80,14 +80,14 @@ for i = 1:M
         plot(xDim,u_dec,'linewidth',2), hold on
         plot(xDim,theta*ones(1,N),'--k','linewidth',1)
         set(gca,'XLim',[-L L]), set(gca,'YLim', [-4 2])
-        title('Decision field')
+        title('Decision field'),set(0,'defaulttextInterpreter','tex') 
         xlabel('x'); ylabel('u_{dec}(x)'); 
         set(gca,'FontSize', 20), hold off
         subplot(122)
         plot(xDim,u_wm,'linewidth',2), hold on
         plot(xDim,theta*ones(1,N),'--k','linewidth',1)
         set(gca,'XLim',[-L L]), set(gca,'YLim', [-2 3])
-        title('Working memory field')
+        title('Working memory field'), set(0,'defaulttextInterpreter','tex') 
         xlabel('x'); ylabel('u_{wm}(x)'); 
         set(gca,'FontSize', 20),hold off
         pause(0.01);
@@ -119,4 +119,3 @@ plot(tDim,theta*zeros(1,M),':k','linewidth',3), hold on
 set(gca,'YLim',[-0.5 2.3]), set(gca, 'XLim', [0 T]),
 xlabel('time'); ylabel('activation u_{dec}');
 set(gca,'FontSize',20), hold off
-

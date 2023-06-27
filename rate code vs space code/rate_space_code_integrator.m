@@ -1,5 +1,5 @@
 % This code turns the input amplitude into bump position.
-% It uses the two-filed integrator model to integrate the input and Amari
+% It uses the two-field integrator model to integrate the input and Amari
 % model to encode the traveling wave and read-out.
 % 
 % (c) Weronika Wojtak, June 2023

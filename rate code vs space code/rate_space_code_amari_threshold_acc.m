@@ -3,6 +3,9 @@
 % mechanism.
 % 
 % (c) Weronika Wojtak, June 2023
+%
+% TODO: Add a working memory field u_wm to inhibit the bump in the decision
+% field u_acc.
 
 %% Cleaning
 clear; clc
